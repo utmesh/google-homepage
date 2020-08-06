@@ -1,0 +1,40 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-icon{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: block;
+    margin: 7% 40% 0px 40%;
+    height: 92px;
+    left: calc(50%- 272px/2);
+    position: absolute;
+    width: 272px;
+}
+
+.main input{
+   margin: 17% 37% 0 37%;
+   min-width: 410px;
+   max-width: 584px;
+   height: 44px;
+   border-radius: 22px;
+   box-sizing: border-box;
+   font-size: 16px;
+   opacity: 1;
+   position: relative;
+   transition: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90%vh;
+
+}
